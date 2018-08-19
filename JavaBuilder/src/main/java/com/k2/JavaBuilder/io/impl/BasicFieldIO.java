@@ -22,7 +22,6 @@ public class BasicFieldIO implements FieldWriter, FieldReflector{
 	private MetaField metaField;
 	private boolean pretty = false;
 	
-	
 	public BasicFieldIO pretty() {
 		pretty = true;
 		return this;
